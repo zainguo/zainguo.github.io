@@ -4,21 +4,21 @@
   <meta charset="utf-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <title>android studio Gradle构建工具 | A Tyro&#39;s blog</title>
+  <title>Android Studio Gradle构建工具 | A Tyro&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="&amp;#x5F15;&amp;#x8A00;  
 Gradle&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x57FA;&amp;#x4E8E;Apache Ant&amp;#x548C;Apache Maven&amp;#x6982;&amp;#x5FF5;&amp;#x7684;&amp;#x9879;&amp;#x76EE;&amp;#x81EA;&amp;#x52A8;&amp;#x5316;&amp;#x5EFA;&amp;#x6784;&amp;#x5DE5;&amp;#x5177;&amp;#xFF0C;&amp;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="android studio Gradle构建工具">
+<meta property="og:title" content="Android Studio Gradle构建工具">
 <meta property="og:url" content="http://zipperary.com/2016/03/28/android-studio-Gradle构建工具/index.html">
 <meta property="og:site_name" content="A Tyro's blog">
 <meta property="og:description" content="&amp;#x5F15;&amp;#x8A00;  
 Gradle&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x57FA;&amp;#x4E8E;Apache Ant&amp;#x548C;Apache Maven&amp;#x6982;&amp;#x5FF5;&amp;#x7684;&amp;#x9879;&amp;#x76EE;&amp;#x81EA;&amp;#x52A8;&amp;#x5316;&amp;#x5EFA;&amp;#x6784;&amp;#x5DE5;&amp;#x5177;&amp;#xFF0C;&amp;">
 <meta property="og:image" content="http://zipperary.com/2016/03/28/android-studio-Gradle构建工具/1.jpg">
 <meta property="og:image" content="http://zipperary.com/2016/03/28/android-studio-Gradle构建工具/2.jpg">
-<meta property="og:updated_time" content="2016-04-06T11:30:25.427Z">
+<meta property="og:updated_time" content="2016-04-08T09:17:34.977Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="android studio Gradle构建工具">
+<meta name="twitter:title" content="Android Studio Gradle构建工具">
 <meta name="twitter:description" content="&amp;#x5F15;&amp;#x8A00;  
 Gradle&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x57FA;&amp;#x4E8E;Apache Ant&amp;#x548C;Apache Maven&amp;#x6982;&amp;#x5FF5;&amp;#x7684;&amp;#x9879;&amp;#x76EE;&amp;#x81EA;&amp;#x52A8;&amp;#x5316;&amp;#x5EFA;&amp;#x6784;&amp;#x5DE5;&amp;#x5177;&amp;#xFF0C;&amp;">
 <meta name="twitter:image" content="http://zipperary.com/2016/03/28/android-studio-Gradle构建工具/1.jpg">
@@ -223,7 +223,7 @@ Gradle&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x57FA;&amp;#x4E8E;Apache Ant&amp
         
   
     <h1 class="article-title" itemprop="name">
-      android studio Gradle构建工具
+      Android Studio Gradle构建工具
     </h1>
   
 
@@ -244,12 +244,24 @@ Gradle&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x57FA;&amp;#x4E8E;Apache Ant&amp
     <div class="article-entry" itemprop="articleBody">
       
         <p>&#x5F15;&#x8A00;  </p>
-<p>Gradle&#x662F;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E;Apache Ant&#x548C;Apache Maven&#x6982;&#x5FF5;&#x7684;&#x9879;&#x76EE;&#x81EA;&#x52A8;&#x5316;&#x5EFA;&#x6784;&#x5DE5;&#x5177;&#xFF0C;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4F7F;&#x7528;groovy&#x8BED;&#x8A00;&#x7684;&#x8BED;&#x6CD5;&#x3002;&#x5B66;&#x4E60;Gradle&#x7684;&#x4E00;&#x624B;&#x8D44;&#x6599;&#x662F;<a href="https://docs.gradle.org/current/userguide/userguide.html" target="_blank" rel="external">Gradle User Guide</a>&#x3001;<a href="http://blog.csdn.net/maosidiaoxian/article/category/2219983/4" title="Title" target="_blank" rel="external">Gradle&#x7528;&#x6237;&#x6307;&#x5357;&#x4E2D;&#x6587;&#x7FFB;&#x8BD1;</a>&#x3002;&#x8BED;&#x8A00;&#x4E0A;&#x5E76;&#x4E0D;&#x662F;&#x5F88;&#x96BE;&#x4F46;&#x5185;&#x5BB9;&#x975E;&#x5E38;&#x975E;&#x5E38;&#x591A;&#xFF0C;&#x4F46;&#x76EE;&#x524D;&#x6765;&#x770B;&#x9664;&#x4E86;&#x8FD9;&#x672C;&#x6587;&#x6863;&#x4EE5;&#x5916;&#xFF0C;&#x53EA;&#x6709;&#x4E00;&#x4E9B;android IDE&#x76F8;&#x5173;&#x7684;Gradle&#x6784;&#x5EFA;&#x6559;&#x7A0B;&#xFF0C;&#x8C8C;&#x4F3C;&#x5B66;&#x4F1A;&#x4E86;&#x4F7F;&#x7528;Gradle&#x8FDB;&#x884C;&#x6784;&#x5EFA;&#xFF0C;&#x4F46;&#x5F80;&#x5F80;&#x4E0D;&#x77E5;&#x5176;&#x6240;&#x4EE5;&#x7136;&#xFF0C;&#x4E00;&#x65E6;&#x9700;&#x8981;&#x8C03;&#x6574;&#x9879;&#x76EE;&#x7ED3;&#x6784;/&#x5199;&#x4E2A;&#x63D2;&#x4EF6;&#x63D0;&#x9AD8;&#x751F;&#x4EA7;&#x529B;&#xFF0C;&#x6211;&#x5C31;&#x5B8C;&#x5168;&#x6293;&#x778E;&#x4E86;&#x3002;&#x6240;&#x4EE5;&#x6211;&#x8BA4;&#x4E3A;&#x5982;&#x679C;&#x60F3;&#x8FDB;&#x884C;&#x7CFB;&#x7EDF;&#x7684;&#x5B66;&#x4E60;&#xFF0C;&#x5C31;&#x8981;&#x770B;&#x4E00;&#x672C;&#x5F52;&#x7EB3;&#x8FC7;&#x7684;&#x4E13;&#x4E1A;&#x4E66;&#x7C4D;&#xFF08;&#x5B98;&#x7F51;&#x6709;&#x63A8;&#x8350;&#xFF09;&#x3002;&#x4E0D;&#x8FC7;&#x5728;&#x6B64;&#x4E4B;&#x524D;&#x6211;&#x6709;&#x5FC5;&#x8981;&#x5BF9;&#x76EE;&#x524D;&#x638C;&#x63E1;&#x7684;&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#x8FDB;&#x884C;&#x5F52;&#x7EB3;&#xFF0C;&#x6240;&#x4EE5;&#x5C31;&#x6709;&#x4E86;&#x8FD9;&#x7BC7;Blog&#x3002;</p>
+<p>Gradle&#x662F;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E;Apache Ant&#x548C;Apache Maven&#x6982;&#x5FF5;&#x7684;&#x9879;&#x76EE;&#x81EA;&#x52A8;&#x5316;&#x5EFA;&#x6784;&#x5DE5;&#x5177;&#xFF0C;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4F7F;&#x7528;groovy&#x8BED;&#x8A00;&#x7684;&#x8BED;&#x6CD5;&#x3002;&#x5B66;&#x4E60;Gradle&#x7684;&#x4E00;&#x624B;&#x8D44;&#x6599;&#x662F;<a href="https://docs.gradle.org/current/userguide/userguide.html" target="_blank" rel="external">Gradle User Guide</a>&#x3001;<a href="http://blog.csdn.net/maosidiaoxian/article/category/2219983/4" title="Title" target="_blank" rel="external">Gradle&#x7528;&#x6237;&#x6307;&#x5357;&#x4E2D;&#x6587;&#x7FFB;&#x8BD1;</a>&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x5185;&#x5BB9;&#x975E;&#x5E38;&#x591A;&#x3002;&#x9664;&#x4E86;&#x8FD9;&#x6587;&#x6863;&#x4EE5;&#x5916;&#x7F51;&#x4E0A;&#x5927;&#x591A;&#x662F;&#x5343;&#x7BC7;&#x4E00;&#x5F8B;&#x7684;android IDE&#x4E2D;Gradle&#x6784;&#x5EFA;&#x6559;&#x7A0B;&#xFF0C;&#x8BFB;&#x8FC7;&#x4E4B;&#x540E;&#x8C8C;&#x4F3C;&#x5B66;&#x4F1A;&#x4E86;Gradle&#x7684;&#x4F7F;&#x7528;&#xFF0C;&#x4F46;&#x5F80;&#x5F80;&#x77E5;&#x5176;&#x7136;&#x4E0D;&#x77E5;&#x5176;&#x6240;&#x4EE5;&#x7136;&#xFF0C;&#x8FDC;&#x8FDC;&#x6CA1;&#x6709;&#x5230;&#x5F97;&#x5FC3;&#x5E94;&#x624B;&#x7684;&#x7A0B;&#x5EA6;&#xFF0C;&#x4E00;&#x65E6;&#x9700;&#x8981;&#x8C03;&#x6574;&#x9879;&#x76EE;&#x7ED3;&#x6784;/&#x5199;&#x63D2;&#x4EF6;&#x63D0;&#x9AD8;&#x751F;&#x4EA7;&#x529B;&#xFF0C;&#x6211;&#x5C31;&#x5B8C;&#x5168;&#x6293;&#x778E;&#x4E86;&#x3002;&#x6240;&#x4EE5;&#x6211;&#x8BA4;&#x4E3A;&#x7CFB;&#x7EDF;&#x7684;&#x5B66;&#x4E60;&#x8FD8;&#x662F;&#x9700;&#x8981;&#x9605;&#x8BFB;&#x5F52;&#x7EB3;&#x8FC7;&#x7684;&#x4E13;&#x4E1A;&#x4E66;&#x7C4D;&#xFF08;&#x5B98;&#x7F51;&#x6709;&#x63A8;&#x8350;&#xFF09;&#x3002;&#x4E0D;&#x8FC7;&#x5728;&#x6B64;&#x4E4B;&#x524D;&#x6709;&#x5FC5;&#x8981;&#x5BF9;&#x76EE;&#x524D;&#x638C;&#x63E1;&#x7684;&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#x8FDB;&#x884C;&#x5F52;&#x7EB3;&#xFF0C;&#x4E8E;&#x662F;&#x5C31;&#x6709;&#x4E86;&#x8FD9;&#x7BC7;Blog&#x3002;</p>
 <h2 id="1-Groovy&#x7B80;&#x5355;&#x8BED;&#x6CD5;&#x5B66;&#x4E60;"><a href="#1-Groovy&#x7B80;&#x5355;&#x8BED;&#x6CD5;&#x5B66;&#x4E60;" class="headerlink" title="1. Groovy&#x7B80;&#x5355;&#x8BED;&#x6CD5;&#x5B66;&#x4E60;"></a>1. Groovy&#x7B80;&#x5355;&#x8BED;&#x6CD5;&#x5B66;&#x4E60;</h2><p>&#x63A8;&#x8350; </p>
 <blockquote>
 <p><a href="http://www.groovy-lang.org/differences.html" target="_blank" rel="external">apache&#x5B98;&#x65B9;&#x4ECB;&#x7ECD;&#x6587;&#x6863;</a> </p>
 <p><a href="http://www.ibm.com/developerworks/cn/education/java/j-groovy/j-groovy.html" target="_blank" rel="external">&#x7CBE;&#x901A;Groovy</a></p>
+<p><a href="http://blog.csdn.net/hivon/article/category/377363/6" target="_blank" rel="external">&#x63A2;&#x7D22;Groovy</a></p>
 </blockquote>
+<p>&#x4F60;&#x81F3;&#x5C11;&#x5E94;&#x8BE5;&#x5B66;&#x4E60;&#x4EE5;&#x4E0B;&#x77E5;&#x8BC6;&#x70B9;</p>
+<ul>
+<li>task&#x4EFB;&#x52A1;&#x53CA;tasks&#x4F9D;&#x8D56;&#x6267;&#x884C;&#x987A;&#x5E8F;</li>
+<li>Closure&#x95ED;&#x5305;&#xFF08;&#x7406;&#x89E3;it&#x5173;&#x952E;&#x5B57;&#x3001;&#x95ED;&#x5305;&#x7684;2&#x5927;&#x4F7F;&#x7528;&#x65F6;&#x673A;&#x3001;&#x65B9;&#x6CD5;&#x5185;&#x90E8;&#x95ED;&#x5305;&#x5F62;&#x5F0F;&#x53D8;&#x6362;&#x3001;&#x95ED;&#x5305;&#x7684;2&#x79CD;&#x8C03;&#x7528;&#x5F62;&#x5F0F;&#xFF09;</li>
+<li>GString</li>
+<li>Groovy&#x6570;&#x636E;&#x7C7B;&#x578B;</li>
+<li>for&#x548C;&#x8303;&#x56F4;&#x3001;each&#x904D;&#x5386;</li>
+<li>&#x96C6;&#x5408;&#x7684;&#x6DFB;&#x52A0;&#x3001;&#x5220;&#x9664;&#x3001;&#x68C0;&#x7D22;&#x3001;join&#x3001;count</li>
+<li>Map&#x548C;Groovy&#x6620;&#x5C04;</li>
+<li>&#x59D4;&#x6258;&#x6A21;&#x5F0F;</li>
+</ul>
 <h2 id="2-Gradle-&#x751F;&#x547D;&#x5468;&#x671F;"><a href="#2-Gradle-&#x751F;&#x547D;&#x5468;&#x671F;" class="headerlink" title="2. Gradle &#x751F;&#x547D;&#x5468;&#x671F;"></a>2. Gradle &#x751F;&#x547D;&#x5468;&#x671F;</h2><p>Gradle&#x6784;&#x5EFA;&#x5206;&#x4E3A;&#x521D;&#x59CB;&#x5316;&#x3001;&#x914D;&#x7F6E;&#x548C;&#x8FD0;&#x884C;&#x4E09;&#x4E2A;&#x9636;&#x6BB5;&#x3002;</p>
 <ol>
 <li>&#x521D;&#x59CB;&#x5316;&#x9636;&#x6BB5;&#xFF0C;&#x4F1A;&#x53BB;&#x8BFB;&#x53D6;&#x6839;&#x5DE5;&#x7A0B;&#x4E2D;<code>setting.gradle</code>&#x4E2D;&#x7684;include&#x4FE1;&#x606F;&#xFF0C;&#x51B3;&#x5B9A;&#x6709;&#x54EA;&#x51E0;&#x4E2A;&#x5DE5;&#x7A0B;&#x52A0;&#x5165;&#x6784;&#x5EFA;&#xFF0C;&#x521B;&#x5EFA;project&#x5B9E;&#x4F8B;&#xFF0C;&#x6BD4;&#x5982;&#x4E0B;&#x9762;&#x6709;&#x4E09;&#x4E2A;&#x5DE5;&#x7A0B;&#xFF1A; include &#x2018;:app&#x2019;, &#x2018;:lib1&#x2019;, &#x2018;:lib2&#x2019;</li>
@@ -271,8 +283,8 @@ Gradle&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x57FA;&amp;#x4E8E;Apache Ant&amp
                   &#x251C;&#x2500;&#x2500; drawable
                   &#x251C;&#x2500;&#x2500; layout
                   &#x2514;&#x2500;&#x2500; etc.
-</code></pre><h3 id="1-project-settings-gradle"><a href="#1-project-settings-gradle" class="headerlink" title="1. %project%/settings.gradle"></a>1. %project%/settings.gradle</h3><p> &#x58F0;&#x660E;&#x9879;&#x76EE;&#x91CC;&#x6240;&#x6709;&#x7684;&#x6A21;&#x5757;&#xFF0C;&#x5728;&#x521D;&#x59CB;&#x5316;&#x9636;&#x6BB5;&#x8BFB;&#x53D6;</p>
-<h3 id="2-project-build-gradle"><a href="#2-project-build-gradle" class="headerlink" title="2. %project%/build.gradle"></a>2. %project%/build.gradle</h3><p> &#x9879;&#x76EE;&#x7684;Gradle&#x7F16;&#x8BD1;&#x811A;&#x672C;<br> <img src="/2016/03/28/android-studio-Gradle&#x6784;&#x5EFA;&#x5DE5;&#x5177;/1.jpg" alt="1.jpg" title="">  </p>
+</code></pre><h4 id="1-project-settings-gradle"><a href="#1-project-settings-gradle" class="headerlink" title="1. %project%/settings.gradle"></a>1. %project%/settings.gradle</h4><p> &#x58F0;&#x660E;&#x9879;&#x76EE;&#x91CC;&#x6240;&#x6709;&#x7684;&#x6A21;&#x5757;&#xFF0C;&#x5728;&#x521D;&#x59CB;&#x5316;&#x9636;&#x6BB5;&#x8BFB;&#x53D6;</p>
+<h4 id="2-project-build-gradle"><a href="#2-project-build-gradle" class="headerlink" title="2. %project%/build.gradle"></a>2. %project%/build.gradle</h4><p> &#x9879;&#x76EE;&#x7684;Gradle&#x7F16;&#x8BD1;&#x811A;&#x672C;<br> <img src="/2016/03/28/android-studio-Gradle&#x6784;&#x5EFA;&#x5DE5;&#x5177;/1.jpg" alt="1.jpg" title="">  </p>
 <ul>
 <li>repositories</li>
 </ul>
@@ -302,7 +314,7 @@ Gradle&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x57FA;&amp;#x4E8E;Apache Ant&amp
       compileSdkVersion rootProject.ext.compileSdkVersion
       buildToolsVersion rootProject.ext.buildToolsVersion
 } 
-</code></pre><h3 id="3-module-build-gradle"><a href="#3-module-build-gradle" class="headerlink" title="3. %module%/build.gradle"></a>3. %module%/build.gradle</h3><p>module&#x7684;Gradle&#x7F16;&#x8BD1;&#x811A;&#x672C;<br> <img src="/2016/03/28/android-studio-Gradle&#x6784;&#x5EFA;&#x5DE5;&#x5177;/2.jpg" alt="2.jpg" title=""> </p>
+</code></pre><h4 id="3-module-build-gradle"><a href="#3-module-build-gradle" class="headerlink" title="3. %module%/build.gradle"></a>3. %module%/build.gradle</h4><p>module&#x7684;Gradle&#x7F16;&#x8BD1;&#x811A;&#x672C;<br> <img src="/2016/03/28/android-studio-Gradle&#x6784;&#x5EFA;&#x5DE5;&#x5177;/2.jpg" alt="2.jpg" title=""> </p>
 <ul>
 <li><p>&#x7B2C;&#x4E00;&#x884C;&#x5F15;&#x5165;&#x7684;&#x662F;google&#x7684;android&#x63D2;&#x4EF6;&#xFF0C;&#x7528;&#x4E8E;android&#x9879;&#x76EE;&#x548C;&#x4F9D;&#x8D56;&#x7684;&#x6253;&#x5305;&#x3001;&#x6D4B;&#x8BD5;android&#x63D2;&#x4EF6;&#xFF0C;&#x8BE5;&#x63D2;&#x4EF6;&#x4F9D;&#x8D56;&#x4E8E;java&#x63D2;&#x4EF6;&#xFF0C;&#x800C;java&#x4F9D;&#x8D56;&#x4E8E;base&#x63D2;&#x4EF6;&#xFF0C;&#x6240;&#x4EE5;android&#x63D2;&#x4EF6;&#x4E5F;&#x6709;&#x4EE5;&#x4E0B;tasks</p>
 <p>  assemble: &#x96C6;&#x5408;&#x6240;&#x6709;&#x7684;output </p>
@@ -317,9 +329,9 @@ Gradle&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x57FA;&amp;#x4E8E;Apache Ant&amp
 </ul>
 <p>&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x547D;&#x4EE4;&#x884C;&#x6216;AS&#x81EA;&#x5E26;&#x7684;&#x7EC8;&#x7AEF;&#xFF0C;&#x627E;&#x5230;&#x9879;&#x76EE;&#x6839;&#x76EE;&#x5F55;&#x7136;&#x540E;&#x8F93;&#x5165;&#x6307;&#x4EE4;&#x6765;&#x6267;&#x884C;&#x8FD9;&#x4E9B;&#x4EFB;&#x52A1;&#xFF0C;&#x8FD9;&#x6837;&#x4E0D;&#x5FC5;&#x52A0;&#x5165;AS&#x7684;&#x4EFB;&#x52A1;&#x961F;&#x5217;&#xFF0C;&#x901F;&#x5EA6;&#x7A0D;&#x5FEB;&#x4E00;&#x4E9B;&#xFF08;win10&#x7684;&#x547D;&#x4EE4;&#x884C;&#x9664;&#x5916;&#xFF0C;&#x9700;&#x8981;&#x66F4;&#x6539;&#x5230;&#x4F4E;&#x7248;&#x672C;&#x547D;&#x4EE4;&#x884C;&#xFF09;&#xFF0C;&#x4E0D;&#x8FC7;android studio&#x62E5;&#x6709;&#x56FE;&#x5F62;&#x5316;&#x5DE5;&#x5177;+&#x5FEB;&#x6377;&#x952E;&#xFF0C;&#x800C;&#x4E14;&#x5728;&#x4F60;&#x66F4;&#x6539;Gradle&#x6587;&#x4EF6;&#x540E;&#x4E5F;&#x4F1A;&#x6709;&#x76F8;&#x5E94;&#x63D0;&#x793A;&#x3002;&#x5982;&#xFF1A;&#x4F60;&#x53EA;&#x9700;&#x70B9;&#x51FB;&#x5DE5;&#x5177;&#x680F;&#x4E2D;&#x7684;Sysc Projects With Gradle Files &#x5373;&#x53EF;&#x6267;&#x884C;generateDebugSources tasks&#x547D;&#x4EE4;&#x6765;&#x540C;&#x6B65;&#x90E8;&#x7F72;&#x9879;&#x76EE;&#x3002;</p>
 <ul>
-<li>buildTypes<br>&#x6709;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x4F1A;&#x56E0;&#x79CD;&#x79CD;&#x95EE;&#x9898;&#x800C;&#x5F00;&#x53D1;&#x4E0D;&#x540C;&#x7248;&#x672C;&#x7684;App&#xFF08;&#x6D4B;&#x8BD5;/&#x5F00;&#x53D1;&#x3001;&#x6709;&#x5E7F;&#x544A;/&#x65E0;&#x5E7F;&#x544A;&#xFF09;&#xFF0C;&#x5728;&#x8FD9;&#x4E2A;&#x95ED;&#x5305;&#x4E0B;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x66F4;&#x6539;appID&#x7684;&#x65B9;&#x5F0F;&#x6253;&#x5305;&#x4E0D;&#x540C;&#x7248;&#x672C;&#x7684;&#x9879;&#x76EE;&#x3002;<br><a href="http://hugozhu.myalert.info/2014/08/03/50-use-gradle-to-customize-apk-build.html" target="_blank" rel="external">&#x6559;&#x7A0B;</a></li>
+<li>buildTypes<br>&#x6709;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x4F1A;&#x56E0;&#x79CD;&#x79CD;&#x95EE;&#x9898;&#x800C;&#x5F00;&#x53D1;&#x4E0D;&#x540C;&#x7248;&#x672C;&#x7684;App&#xFF08;&#x6D4B;&#x8BD5;/&#x5F00;&#x53D1;&#x3001;&#x6709;&#x5E7F;&#x544A;/&#x65E0;&#x5E7F;&#x544A;&#xFF09;&#xFF0C;&#x5728;&#x8FD9;&#x4E2A;&#x95ED;&#x5305;&#x4E0B;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x66F4;&#x6539;appID&#x7684;&#x65B9;&#x5F0F;&#x6253;&#x5305;&#x4E0D;&#x540C;&#x7248;&#x672C;&#x7684;&#x9879;&#x76EE;&#x3002;<br><a href="http://hugozhu.myalert.info/2014/08/03/50-use-gradle-to-customize-apk-build.html" target="_blank" rel="external">&#x6559;&#x7A0B;</a><br><a href=""></a></li>
 </ul>
-<h3 id="4-project-gradle-properties"><a href="#4-project-gradle-properties" class="headerlink" title="4. %project%/gradle.properties"></a>4. %project%/gradle.properties</h3><p>&#x5728;&#x8FD9;&#x91CC;&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E;&#x5168;&#x5C40;&#x914D;&#x7F6E;&#xFF0C;&#x6BD4;&#x5982;&#x6211;&#x4EEC;&#x60F3;&#x8981;&#x52A0;&#x5FEB;Gradle&#x6784;&#x5EFA;&#x901F;&#x5EA6;&#xFF0C;&#x5728;&#x8FD9;&#x91CC;&#x5F00;&#x542F;&#x591A;&#x7EBF;&#x7A0B;&#x7F16;&#x8BD1;</p>
+<h4 id="4-project-gradle-properties"><a href="#4-project-gradle-properties" class="headerlink" title="4. %project%/gradle.properties"></a>4. %project%/gradle.properties</h4><p>&#x5728;&#x8FD9;&#x91CC;&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E;&#x5168;&#x5C40;&#x914D;&#x7F6E;&#xFF0C;&#x6BD4;&#x5982;&#x6211;&#x4EEC;&#x60F3;&#x8981;&#x52A0;&#x5FEB;Gradle&#x6784;&#x5EFA;&#x901F;&#x5EA6;&#xFF0C;&#x5728;&#x8FD9;&#x91CC;&#x5F00;&#x542F;&#x591A;&#x7EBF;&#x7A0B;&#x7F16;&#x8BD1;</p>
 <pre><code>org.gradle.daemon=true
 org.gradle.parallel=true
 org.gradle.jvmargs=-Xmx1024m
@@ -355,7 +367,7 @@ i = Hello World
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="android-studio-Gradle构建工具" data-title="android studio Gradle构建工具" data-url="http://zipperary.com/2016/03/28/android-studio-Gradle构建工具/"></div>
+	<div class="ds-thread" data-thread-key="android-studio-Gradle构建工具" data-title="Android Studio Gradle构建工具" data-url="http://zipperary.com/2016/03/28/android-studio-Gradle构建工具/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
